@@ -1,0 +1,596 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pt' Physical Memory: 3916 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/PC/Documents/Projetos/Unity/Pokemon Rogue
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65326
+Successfully changed project path to: C:/Users/PC/Documents/Projetos/Unity/Pokemon Rogue
+C:/Users/PC/Documents/Projetos/Unity/Pokemon Rogue
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4044] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3093694589 [EditorId] 3093694589 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P7KLI03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4044] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3093694589 [EditorId] 3093694589 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P7KLI03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 1 workers.
+Refreshing native plugins compatible for Editor in 1851.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Documents/Projetos/Unity/Pokemon Rogue/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 600 (ID=0x3185)
+    Vendor:   Intel
+    VRAM:     1958 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 7.355161 seconds.
+- Loaded All Assemblies, in 44.437 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 15.192 seconds
+Domain Reload Profiling: 59625ms
+	BeginReloadAssembly (24757ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (2408ms)
+	RebuildNativeTypeToScriptingClass (265ms)
+	initialDomainReloadingComplete (16417ms)
+	LoadAllAssembliesAndSetupDomain (584ms)
+		LoadAssemblies (24703ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (577ms)
+			TypeCache.Refresh (560ms)
+				TypeCache.ScanAssembly (497ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (15194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (14901ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (14482ms)
+			ProcessInitializeOnLoadMethodAttributes (366ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.581 seconds
+Refreshing native plugins compatible for Editor in 181.91 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.112 seconds
+Domain Reload Profiling: 18752ms
+	BeginReloadAssembly (491ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (10918ms)
+		LoadAssemblies (6605ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3570ms)
+			TypeCache.Refresh (3302ms)
+				TypeCache.ScanAssembly (3041ms)
+			ScanForSourceGeneratedMonoScriptInfo (187ms)
+			ResolveRequiredComponents (59ms)
+	FinalizeReload (7115ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (28ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (741ms)
+			ProcessInitializeOnLoadAttributes (3988ms)
+			ProcessInitializeOnLoadMethodAttributes (687ms)
+			AfterProcessingInitializeOnLoad (57ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.68 seconds
+Refreshing native plugins compatible for Editor in 49.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (300.2 KB). Loaded Objects now: 4863.
+Memory consumption went from 151.5 MB to 151.2 MB.
+Total: 32.089600 ms (FindLiveObjects: 12.317300 ms CreateObjectMapping: 1.522200 ms MarkObjects: 15.631000 ms  DeleteObjects: 2.615200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (256.4 KB). Loaded Objects now: 4863.
+Memory consumption went from 78.7 MB to 78.5 MB.
+Total: 30.968700 ms (FindLiveObjects: 1.880500 ms CreateObjectMapping: 0.964100 ms MarkObjects: 27.560500 ms  DeleteObjects: 0.560500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11601.005362 seconds.
+  path: Assets/sounds/walking_grass.mp3
+  artifactKey: Guid(fe16e73600c734e4a8727bbef80faad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds/walking_grass.mp3 using Guid(fe16e73600c734e4a8727bbef80faad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9367dfddf981a79b0d19cf1ab663b0') in 1.521357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002800 seconds.
+  path: Assets/sounds/tall_grass_sound.prefab
+  artifactKey: Guid(ae83c88311a75a54cb6dfd44d4b51ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds/tall_grass_sound.prefab using Guid(ae83c88311a75a54cb6dfd44d4b51ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f46b99f6595508ae7555b258c41d7c2') in 0.098020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.395353 seconds.
+  path: Assets/script/player.cs
+  artifactKey: Guid(0279292b9b738d346b4319ad0d24d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/player.cs using Guid(0279292b9b738d346b4319ad0d24d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c504448971a873ed3f5c3383193155e4') in 0.001567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 99.310738 seconds.
+  path: Assets/script/player.cs
+  artifactKey: Guid(0279292b9b738d346b4319ad0d24d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/player.cs using Guid(0279292b9b738d346b4319ad0d24d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6b9c3934550b6beb82c0bb2652a73a') in 0.931291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.101 seconds
+Refreshing native plugins compatible for Editor in 153.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 33.688 seconds
+Domain Reload Profiling: 42777ms
+	BeginReloadAssembly (4858ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (1017ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (995ms)
+	RebuildCommonClasses (619ms)
+	RebuildNativeTypeToScriptingClass (117ms)
+	initialDomainReloadingComplete (396ms)
+	LoadAllAssembliesAndSetupDomain (3097ms)
+		LoadAssemblies (4706ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (64ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (58ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (33689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (12358ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1275ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2052ms)
+			ProcessInitializeOnLoadAttributes (8647ms)
+			ProcessInitializeOnLoadMethodAttributes (352ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Script is not up to date after domain reload: guid(0279292b9b738d346b4319ad0d24d2a2) path("Assets/script/player.cs") state(2)
+Refreshing native plugins compatible for Editor in 10.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (256.7 KB). Loaded Objects now: 4877.
+Memory consumption went from 149.9 MB to 149.6 MB.
+Total: 147.737100 ms (FindLiveObjects: 137.934000 ms CreateObjectMapping: 1.048100 ms MarkObjects: 7.997800 ms  DeleteObjects: 0.753200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.734 seconds
+Refreshing native plugins compatible for Editor in 15.58 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.512 seconds
+Domain Reload Profiling: 17233ms
+	BeginReloadAssembly (2626ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (684ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (786ms)
+	RebuildCommonClasses (1071ms)
+	RebuildNativeTypeToScriptingClass (252ms)
+	initialDomainReloadingComplete (564ms)
+	LoadAllAssembliesAndSetupDomain (3205ms)
+		LoadAssemblies (4041ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (9514ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2021ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (19ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (387ms)
+			ProcessInitializeOnLoadAttributes (1447ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Refreshing native plugins compatible for Editor in 98.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (273.1 KB). Loaded Objects now: 4882.
+Memory consumption went from 150.2 MB to 149.9 MB.
+Total: 46.394100 ms (FindLiveObjects: 1.680000 ms CreateObjectMapping: 0.871600 ms MarkObjects: 35.089800 ms  DeleteObjects: 8.749100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.696 seconds
+Refreshing native plugins compatible for Editor in 54.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 12.634 seconds
+Domain Reload Profiling: 22319ms
+	BeginReloadAssembly (2203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (124ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (688ms)
+	RebuildCommonClasses (312ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (366ms)
+	LoadAllAssembliesAndSetupDomain (6748ms)
+		LoadAssemblies (7616ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (305ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (151ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (12635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2444ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (347ms)
+			ProcessInitializeOnLoadAttributes (1881ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 26.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (272.9 KB). Loaded Objects now: 4886.
+Memory consumption went from 150.2 MB to 149.9 MB.
+Total: 275.528300 ms (FindLiveObjects: 219.225600 ms CreateObjectMapping: 1.928300 ms MarkObjects: 53.683300 ms  DeleteObjects: 0.687800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 440.220493 seconds.
+  path: Assets/prefabs/bulbasaur.prefab
+  artifactKey: Guid(a8bdf4595b96c7446948693449de724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/bulbasaur.prefab using Guid(a8bdf4595b96c7446948693449de724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5befe61946b9aa352c848b992d1b246e') in 37.242766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 183
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/sounds/walking_grass_2.mp3
+  artifactKey: Guid(99df919753d22eb4ca155917c77ba265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds/walking_grass_2.mp3 using Guid(99df919753d22eb4ca155917c77ba265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3778dbae4c424962c49a4b5130041e49') in 0.177292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/sounds/tall_grass_sound.prefab
+  artifactKey: Guid(ae83c88311a75a54cb6dfd44d4b51ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds/tall_grass_sound.prefab using Guid(ae83c88311a75a54cb6dfd44d4b51ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11f2a794a48dc719f7b9ce415b2d48f') in 0.010742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.128 seconds
+Refreshing native plugins compatible for Editor in 30.56 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 19.156 seconds
+Domain Reload Profiling: 31250ms
+	BeginReloadAssembly (9669ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (77ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (459ms)
+	RebuildCommonClasses (572ms)
+	RebuildNativeTypeToScriptingClass (91ms)
+	initialDomainReloadingComplete (151ms)
+	LoadAllAssembliesAndSetupDomain (1611ms)
+		LoadAssemblies (1723ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (55ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (84ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (19158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (258ms)
+			SetLoadedEditorAssemblies (42ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (223ms)
+			ProcessInitializeOnLoadAttributes (2589ms)
+			ProcessInitializeOnLoadMethodAttributes (412ms)
+			AfterProcessingInitializeOnLoad (88ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (97ms)
+Refreshing native plugins compatible for Editor in 107.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (273.0 KB). Loaded Objects now: 4890.
+Memory consumption went from 150.0 MB to 149.7 MB.
+Total: 59.741200 ms (FindLiveObjects: 1.560900 ms CreateObjectMapping: 0.420900 ms MarkObjects: 53.651200 ms  DeleteObjects: 4.104600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1664.428516 seconds.
+  path: Assets/sounds/route_1.mp3
+  artifactKey: Guid(23bc1b2ea3342ed44a936218b16eb25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds/route_1.mp3 using Guid(23bc1b2ea3342ed44a936218b16eb25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed19d2f432f180ae066f067625184a4') in 12.757469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.187699 seconds.
+  path: Assets/sounds
+  artifactKey: Guid(6147ae12443adbb4d9696c0671995c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds using Guid(6147ae12443adbb4d9696c0671995c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afd1877e8c90ce9d9235624c21d93cb') in 0.004614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.553359 seconds.
+  path: Assets/sounds/route_1.prefab
+  artifactKey: Guid(908a7b4f71ac394458b8b2a20ea018fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds/route_1.prefab using Guid(908a7b4f71ac394458b8b2a20ea018fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990b3a93b4151c9eee127973226441d3') in 1.733863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 6.570143 seconds.
+  path: Assets/sounds/route_1.prefab
+  artifactKey: Guid(908a7b4f71ac394458b8b2a20ea018fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds/route_1.prefab using Guid(908a7b4f71ac394458b8b2a20ea018fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7781b3c92961f489770091d298ee0293') in 0.046779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.731482 seconds.
+  path: Assets/sounds/route_1.prefab
+  artifactKey: Guid(908a7b4f71ac394458b8b2a20ea018fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds/route_1.prefab using Guid(908a7b4f71ac394458b8b2a20ea018fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadd20491257f60bd88ac50cdb8abd06') in 0.042249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.823333 seconds.
+  path: Assets/sounds/route_1.prefab
+  artifactKey: Guid(908a7b4f71ac394458b8b2a20ea018fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sounds/route_1.prefab using Guid(908a7b4f71ac394458b8b2a20ea018fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e9072fef0216526dd5c148b8fc3dbc') in 0.566210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 144.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (255.4 KB). Loaded Objects now: 4891.
+Memory consumption went from 82.7 MB to 82.5 MB.
+Total: 1167.516000 ms (FindLiveObjects: 16.565600 ms CreateObjectMapping: 1.317400 ms MarkObjects: 1147.845600 ms  DeleteObjects: 1.781600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

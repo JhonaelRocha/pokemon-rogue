@@ -1,0 +1,26 @@
+# Blender MTL File: '12.blend'
+# Material Count: 2
+
+newmtl ground_base_25
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ground_base.png
+map_d ground_base.png
+
+newmtl wall_base_18
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd wall_base.png
+map_d wall_base.png
